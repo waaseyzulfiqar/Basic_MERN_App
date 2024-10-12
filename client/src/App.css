@@ -1,0 +1,78 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px 10px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+button.app {
+  box-sizing: border-box;
+  background: #000;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.app:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.data {
+  background-color: rgb(253, 252, 252);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button button{
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.button button:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s all ease-out;
+}
